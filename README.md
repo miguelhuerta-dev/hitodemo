@@ -10,10 +10,10 @@
 
 | Sistema · System | Descarga · Download |
 |---|---|
-| **Windows 10 / 11** | [Hito-0.3.0-win-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.3.0-win-x64.zip) |
-| **Mac M1 / M2 / M3 / M4** | [Hito-0.3.0-osx-arm64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.3.0-osx-arm64.zip) |
-| **Mac Intel** | [Hito-0.3.0-osx-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.3.0-osx-x64.zip) |
-| **Linux** | [Hito-0.3.0-linux-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.3.0-linux-x64.zip) |
+| **Windows 10 / 11** | [Hito-0.4.0-win-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-win-x64.zip) |
+| **Mac M1 / M2 / M3 / M4** | [Hito-0.4.0-osx-arm64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-osx-arm64.zip) |
+| **Mac Intel** | [Hito-0.4.0-osx-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-osx-x64.zip) |
+| **Linux** | [Hito-0.4.0-linux-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-linux-x64.zip) |
 
 No hay que instalar nada. Funciona sin internet y tus datos se quedan en tu computadora.
 
