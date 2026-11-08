@@ -8,6 +8,15 @@
 
 ## Descargar · Download
 
+### Recomendado · Recommended
+
+| Sistema · System | Descarga · Download |
+|---|---|
+| **Windows 10 / 11** — instalador · installer | [Hito-0.4.0-Instalador.exe](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.4.0/Hito-0.4.0-Instalador.exe) |
+| **Android 7+** — app | [Hito-0.4.0-android.apk](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.4.0/Hito-0.4.0-android.apk) |
+
+### Portable (sin instalar · no install)
+
 | Sistema · System | Descarga · Download |
 |---|---|
 | **Windows 10 / 11** | [Hito-0.4.0-win-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-win-x64.zip) |
@@ -15,9 +24,22 @@
 | **Mac Intel** | [Hito-0.4.0-osx-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-osx-x64.zip) |
 | **Linux** | [Hito-0.4.0-linux-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-linux-x64.zip) |
 
-No hay que instalar nada. Funciona sin internet y tus datos se quedan en tu computadora.
+Funciona sin internet y tus datos se quedan en tu equipo.
 
-## Cómo abrirlo
+## Cómo instalarlo
+
+### Windows (instalador)
+1. Descarga **Hito-0.4.0-Instalador.exe** y ábrelo.
+2. Si aparece *"Windows protegió su PC"*: **Más información → Ejecutar de todas formas** (la app no está firmada con un certificado de pago).
+3. Sigue el asistente. No pide permisos de administrador. Al terminar, abre Hito desde el menú Inicio o el escritorio.
+
+### Android
+1. Desde el celular, descarga **Hito-0.4.0-android.apk**.
+2. Ábrelo. Android te pedirá permitir **"Instalar apps de origen desconocido"** para tu navegador o administrador de archivos: actívalo y vuelve.
+3. Toca **Instalar**. Si Google Play Protect muestra un aviso, elige **Instalar de todas formas** (Hito no viene de la Play Store).
+4. Las actualizaciones futuras se instalan encima sin perder tus datos.
+
+## Versión portable (sin instalar)
 
 ### Windows
 1. Descarga el `.zip` y **descomprímelo** (clic derecho → *Extraer todo*). No lo abras desde dentro del `.zip`.
@@ -50,7 +72,20 @@ chmod +x Hito && ./Hito
 
 <h2 id="english">English</h2>
 
-No installation needed. It works offline, and your data stays on your computer. Download the file for your system from the table above.
+It works offline, and your data stays on your device. Download the file for your system from the tables above.
+
+### Windows (installer)
+1. Download **Hito-0.4.0-Instalador.exe** and open it.
+2. If you see *"Windows protected your PC"*, click **More info → Run anyway** (the app isn't signed with a paid certificate).
+3. Follow the setup wizard. No administrator rights needed. When it's done, open Hito from the Start menu or your desktop.
+
+### Android
+1. On your phone, download **Hito-0.4.0-android.apk**.
+2. Open it. Android will ask you to allow **"Install unknown apps"** for your browser or file manager: turn it on and go back.
+3. Tap **Install**. If Google Play Protect shows a warning, choose **Install anyway** (Hito doesn't come from the Play Store).
+4. Future updates install on top without losing your data.
+
+### Portable (no install)
 
 ### Windows
 1. Download the `.zip` and **extract it** (right-click → *Extract All*). Don't run it from inside the `.zip`.
