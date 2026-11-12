@@ -121,4 +121,6 @@ Something won't open? Send the `datos/hito.log` file; it records what happened.
 
 ---
 
+<p align="center"><a href="https://miguelhuerta-dev.github.io/hitodemo/privacidad/">Aviso de privacidad · Privacy notice</a> · <a href="https://miguelhuerta-dev.github.io/hitodemo/terminos/">Términos de uso · Terms of use</a></p>
+
 <p align="center">Designed by <strong>Miguel Huerta</strong> · <a href="https://github.com/miguelhuerta-dev">@miguelhuerta-dev</a></p>

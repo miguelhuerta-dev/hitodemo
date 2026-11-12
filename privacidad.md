@@ -1,90 +1,132 @@
 ---
-title: Política de privacidad · Privacy policy — Hito
+title: Aviso de privacidad · Privacy notice — Hito
 permalink: /privacidad/
 ---
 
-# Política de privacidad de Hito
+<p><strong>Español</strong> · <a href="#english">English</a> · <a href="../terminos/">Términos de uso · Terms of use</a></p>
 
-*Última actualización: 12 de noviembre de 2026*
+# Aviso de privacidad de Hito
 
-Hito es una agenda personal gratuita y de código abierto creada por Miguel Huerta. Esta política explica qué datos usa Hito y qué hace con ellos.
+*Vigente desde el 12 de noviembre de 2026 · Versión 0.5*
 
-## Resumen
-- **Hito no tiene servidores y no recopila tus datos.** Todo lo que guardas en Hito se queda en tu propio dispositivo.
-- **Si conectas tu cuenta de Google**, Hito se comunica directamente desde tu dispositivo con Google Calendar. Tus eventos no pasan por ningún servidor de Hito ni de terceros.
-- Hito **no vende, no comparte y no usa tus datos para publicidad** ni para entrenar modelos de inteligencia artificial.
+Este aviso explica qué datos personales usa **Hito** (la aplicación para Windows, Android, macOS y Linux, y este sitio), para qué y qué derechos tienes. Se emite en atención a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y, en lo aplicable, a otras leyes de privacidad como el Reglamento General de Protección de Datos de la Unión Europea (RGPD).
 
-## Datos que Hito guarda en tu dispositivo
-Actividades, historial, rutinas, marcadores y finanzas que tú registras. Se guardan en un archivo local en tu equipo o teléfono. Puedes exportarlos o borrarlos en cualquier momento desde **Ajustes**.
+## 1. Quién es el responsable
+Hito es una aplicación gratuita desarrollada por **Miguel Huerta** ("el desarrollador"). Medio de contacto para todo lo relacionado con privacidad: [abre un *issue* en github.com/miguelhuerta-dev/hitodemo](https://github.com/miguelhuerta-dev/hitodemo/issues) o escribe a través de [github.com/miguelhuerta-dev](https://github.com/miguelhuerta-dev).
 
-## Datos de Google (cuando conectas Google Calendar)
-Si eliges **Conectar con Google**, Hito solicita permiso para ver y editar tus calendarios de Google (`https://www.googleapis.com/auth/calendar`) con el único fin de:
+## 2. Resumen
+- **Hito no tiene servidores, ni cuentas de usuario, ni analítica, ni publicidad.** El desarrollador **no recibe, no ve y no guarda** ninguno de tus datos.
+- Todo lo que registras se queda **en tu propio dispositivo**.
+- Si **tú decides** conectar Google Calendar o un calendario por enlace, Hito se comunica **directamente desde tu dispositivo** con ese servicio. Nada pasa por servidores de Hito.
+- Hito **no vende, no comparte, no transfiere y no usa tus datos** para publicidad ni para entrenar modelos de inteligencia artificial.
+
+## 3. Datos que se guardan en tu dispositivo
+| Dato | Para qué | Dónde |
+|---|---|---|
+| Actividades, historial, marcadores, rutinas y entrenamientos | Que la agenda funcione | Archivo local de Hito |
+| Gastos, tarjetas, suscripciones y presupuesto | Calcular tus finanzas personales | Archivo local de Hito |
+| Medicamentos y dieta que registres (pueden ser datos de salud) | Mostrarlos en tu agenda | Archivo local de Hito |
+| Preferencias (idioma, tema, recorrido visto) | Recordar cómo usas la app | Archivo local y almacenamiento del navegador interno |
+| Registro técnico de errores (`hito.log`, solo versión portable) | Que tú puedas diagnosticar fallas | Carpeta `datos`, nunca se envía |
+
+Estos datos **no salen de tu dispositivo** salvo que tú los exportes (respaldo, archivo .ics) o conectes una agenda externa. Los datos de salud y financieros que registres son **datos sensibles**: como solo existen en tu dispositivo, tú tienes el control total sobre ellos. Te recomendamos proteger tu equipo o teléfono con contraseña.
+
+## 4. Google Calendar (opcional)
+Si eliges **Conectar** en *Ajustes → Agendas conectadas*, Hito solicita, con tu autorización expresa en la pantalla de Google, permiso para ver y editar tus calendarios (`https://www.googleapis.com/auth/calendar`) y para conocer tu correo electrónico (`email`), con el único fin de:
 - mostrar tus eventos de Google dentro de Hito;
 - guardar en tu Google Calendar las actividades que creas o cambias en Hito;
-- crear un calendario llamado "Hito" en tu cuenta para las actividades creadas en Hito.
+- crear un calendario llamado "Hito" en tu cuenta;
+- mostrarte qué cuenta está conectada.
 
-Hito también obtiene tu dirección de correo de Google solo para mostrarte qué cuenta está conectada.
-
-**Cómo se guardan:** los eventos sincronizados se guardan en el archivo local de Hito en tu dispositivo. El permiso de acceso (token) se guarda cifrado en el almacén seguro de tu sistema operativo. Nada de esto se envía a otra parte.
-
-**Con quién se comparten:** con nadie. Los datos solo viajan entre tu dispositivo y Google.
+**Cómo se guardan:** los eventos sincronizados se guardan en el archivo local de Hito. El permiso de acceso (token) se guarda **cifrado en tu dispositivo** (en Windows y Android, con la protección del sistema operativo). **Con quién se comparten:** con nadie; solo viajan entre tu dispositivo y Google, cuyo tratamiento se rige por la [Política de privacidad de Google](https://policies.google.com/privacy).
 
 **Uso limitado:** el uso que hace Hito de la información recibida de las API de Google cumple con la [Política de datos de usuario de los servicios de las API de Google](https://developers.google.com/terms/api-services-user-data-policy), incluidos los requisitos de Uso Limitado.
 
-## Cómo desconectar y borrar
-- En Hito: **Ajustes → Agendas conectadas → Desconectar**. Se borra el permiso y los eventos de Google guardados en tu dispositivo.
-- En Google: puedes quitar el acceso de Hito en cualquier momento en [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
-- Desinstalar Hito borra sus datos locales (el instalador de Windows te pregunta si deseas borrarlos).
+## 5. Calendarios por enlace (.ics) (opcional)
+Si agregas un enlace, Hito descarga ese calendario directamente desde la dirección que escribiste, solo para mostrarlo. El servicio que lo publica puede registrar la descarga según sus propias políticas.
 
-## Niños
-Hito no está dirigido a menores de 13 años y no recopila datos de nadie.
+## 6. Cookies y tecnologías similares
+Hito **no usa cookies de rastreo, de publicidad ni de analítica**, ni las de terceros.
+- **Cookie técnica de seguridad** (`.AspNetCore.Antiforgery…`), solo en la versión portable: la crea el pequeño servidor que Hito ejecuta en tu propio equipo (`127.0.0.1`) para proteger los formularios. No contiene datos personales y nunca sale de tu equipo.
+- **Almacenamiento local**: `hito-lang` (idioma elegido, para mostrar la pantalla de carga en tu idioma) y `hito-splash` (si ya viste la animación de inicio en esta sesión; se borra al cerrar).
 
-## Cambios
-Si esta política cambia, la nueva versión se publicará en esta misma página con su fecha.
+Todas son estrictamente necesarias para que la app funcione, por lo que no requieren consentimiento. Este sitio (GitHub Pages) no agrega cookies propias ni analítica; GitHub puede tratar datos técnicos de tu visita según la [Declaración de privacidad de GitHub](https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement).
 
-## Contacto
-Dudas o solicitudes: [github.com/miguelhuerta-dev](https://github.com/miguelhuerta-dev) (abre un *issue* en el repositorio [hitodemo](https://github.com/miguelhuerta-dev/hitodemo/issues)).
+## 7. Tus derechos (ARCO) y cómo ejercerlos
+Tienes derecho a **acceder, rectificar, cancelar u oponerte** al tratamiento de tus datos, a **revocar tu consentimiento** y, si aplica el RGPD, a la portabilidad y a la limitación. Como tus datos están solo en tu dispositivo, puedes ejercerlos tú mismo en cualquier momento:
+- **Acceder y llevarte tus datos:** *Ajustes → Descargar respaldo* (archivo JSON) o exportar a calendario (.ics).
+- **Rectificar:** edita cualquier registro en la app.
+- **Cancelar (borrar):** *Ajustes → Empezar de nuevo*, o desinstala la app (el instalador de Windows te pregunta si deseas borrar tus datos; en la versión portable, borra la carpeta `datos`).
+- **Revocar el acceso a Google:** *Ajustes → Agendas conectadas → Desconectar*, o en [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
+
+Para cualquier duda o solicitud, usa el medio de contacto del punto 1. Si consideras que tus derechos fueron vulnerados, puedes acudir a la autoridad de protección de datos de tu país.
+
+## 8. Menores de edad
+Hito no está dirigido a menores de 13 años (o la edad mínima que fije tu país). El desarrollador no recopila datos de nadie.
+
+## 9. Cambios a este aviso
+Cualquier cambio se publicará en esta misma página con su nueva fecha y se mencionará en las notas de versión.
 
 ---
 
-# Hito Privacy Policy
+<h1 id="english">Hito Privacy Notice</h1>
 
-*Last updated: November 12, 2026*
+*Effective November 12, 2026 · Version 0.5*
 
-Hito is a free, open-source personal planner created by Miguel Huerta. This policy explains what data Hito uses and what it does with it.
+This notice explains what personal data **Hito** (the app for Windows, Android, macOS and Linux, and this website) uses, why, and what rights you have. It is issued under Mexico's Federal Law on the Protection of Personal Data Held by Private Parties and, where applicable, other privacy laws such as the EU General Data Protection Regulation (GDPR).
 
-## Summary
-- **Hito has no servers and does not collect your data.** Everything you store in Hito stays on your own device.
-- **If you connect your Google account**, Hito communicates directly from your device with Google Calendar. Your events never pass through any Hito or third-party server.
-- Hito **does not sell or share your data, or use it for advertising** or to train artificial intelligence models.
+## 1. Who is responsible
+Hito is a free app developed by **Miguel Huerta** ("the developer"). Privacy contact: [open an issue at github.com/miguelhuerta-dev/hitodemo](https://github.com/miguelhuerta-dev/hitodemo/issues) or reach out via [github.com/miguelhuerta-dev](https://github.com/miguelhuerta-dev).
 
-## Data Hito stores on your device
-The activities, history, workouts, milestones, and finances you enter. They are saved in a local file on your computer or phone. You can export or delete them at any time from **Settings**.
+## 2. Summary
+- **Hito has no servers, user accounts, analytics, or ads.** The developer **does not receive, see, or store** any of your data.
+- Everything you enter stays **on your own device**.
+- If **you choose** to connect Google Calendar or a calendar link, Hito talks **directly from your device** to that service. Nothing goes through Hito servers.
+- Hito **does not sell, share, transfer, or use your data** for advertising or to train artificial intelligence models.
 
-## Google data (when you connect Google Calendar)
-If you choose **Connect with Google**, Hito requests permission to see and edit your Google calendars (`https://www.googleapis.com/auth/calendar`) solely to:
+## 3. Data stored on your device
+| Data | Purpose | Where |
+|---|---|---|
+| Activities, history, milestones, routines and workouts | Make the planner work | Hito's local file |
+| Expenses, cards, subscriptions and budget | Calculate your personal finances | Hito's local file |
+| Medications and diet you enter (may be health data) | Show them on your schedule | Hito's local file |
+| Preferences (language, theme, tour seen) | Remember how you use the app | Local file and the built-in browser storage |
+| Technical error log (`hito.log`, portable version only) | Let you diagnose problems | `datos` folder, never sent |
+
+This data **never leaves your device** unless you export it (backup, .ics file) or connect an external calendar. Health and financial data you enter are **sensitive data**: since they exist only on your device, you are in full control of them. We recommend protecting your computer or phone with a password.
+
+## 4. Google Calendar (optional)
+If you choose **Connect** in *Settings → Connected calendars*, Hito requests, with your express authorization on Google's screen, permission to see and edit your calendars (`https://www.googleapis.com/auth/calendar`) and to know your email address (`email`), solely to:
 - show your Google events inside Hito;
 - save the activities you create or change in Hito to your Google Calendar;
-- create a calendar named "Hito" in your account for activities created in Hito.
+- create a calendar named "Hito" in your account;
+- show you which account is connected.
 
-Hito also reads your Google email address only to show you which account is connected.
-
-**How it's stored:** synced events are saved in Hito's local file on your device. The access permission (token) is stored encrypted in your operating system's secure storage. None of it is sent anywhere else.
-
-**Who it's shared with:** no one. Data only travels between your device and Google.
+**How it's stored:** synced events are saved in Hito's local file. The access permission (token) is stored **encrypted on your device** (on Windows and Android, with the operating system's protection). **Who it's shared with:** no one; it only travels between your device and Google, whose processing is governed by the [Google Privacy Policy](https://policies.google.com/privacy).
 
 **Limited Use:** Hito's use of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
-## How to disconnect and delete
-- In Hito: **Settings → Connected calendars → Disconnect**. This removes the permission and the Google events stored on your device.
-- In Google: you can remove Hito's access at any time at [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
-- Uninstalling Hito deletes its local data (the Windows installer asks whether you want to delete it).
+## 5. Calendars by link (.ics) (optional)
+If you add a link, Hito downloads that calendar directly from the address you entered, only to display it. The service publishing it may log the download under its own policies.
 
-## Children
-Hito is not directed to children under 13 and does not collect data from anyone.
+## 6. Cookies and similar technologies
+Hito **does not use tracking, advertising, or analytics cookies**, nor third-party cookies.
+- **Technical security cookie** (`.AspNetCore.Antiforgery…`), portable version only: created by the small server Hito runs on your own computer (`127.0.0.1`) to protect forms. It contains no personal data and never leaves your computer.
+- **Local storage**: `hito-lang` (chosen language, to show the loading screen in your language) and `hito-splash` (whether you already saw the startup animation this session; cleared on close).
 
-## Changes
-If this policy changes, the new version will be posted on this page with its date.
+All are strictly necessary for the app to work, so they do not require consent. This website (GitHub Pages) adds no cookies or analytics of its own; GitHub may process technical data about your visit under the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-## Contact
-Questions or requests: [github.com/miguelhuerta-dev](https://github.com/miguelhuerta-dev) (open an issue in the [hitodemo](https://github.com/miguelhuerta-dev/hitodemo/issues) repository).
+## 7. Your rights and how to exercise them
+You have the right to **access, rectify, delete, or object** to the processing of your data, to **withdraw consent**, and, where the GDPR applies, to portability and restriction. Since your data is only on your device, you can exercise them yourself at any time:
+- **Access and take your data:** *Settings → Download backup* (JSON file) or export to calendar (.ics).
+- **Rectify:** edit any record in the app.
+- **Delete:** *Settings → Start over*, or uninstall the app (the Windows installer asks whether to delete your data; for the portable version, delete the `datos` folder).
+- **Revoke Google access:** *Settings → Connected calendars → Disconnect*, or at [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
+
+For any question or request, use the contact in section 1. If you believe your rights were violated, you may contact the data protection authority in your country.
+
+## 8. Children
+Hito is not directed to children under 13 (or the minimum age set by your country). The developer collects no one's data.
+
+## 9. Changes to this notice
+Any change will be posted on this page with its new date and mentioned in the release notes.
