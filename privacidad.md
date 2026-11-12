@@ -7,7 +7,7 @@ permalink: /privacidad/
 
 # Aviso de privacidad de Hito
 
-*Vigente desde el 12 de noviembre de 2026 · Versión 0.5*
+*Vigente desde el 12 de noviembre de 2026 · Versión 0.6*
 
 Este aviso explica qué datos personales usa **Hito** (la aplicación para Windows, Android, macOS y Linux, y este sitio), para qué y qué derechos tienes. Se emite en atención a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y, en lo aplicable, a otras leyes de privacidad como el Reglamento General de Protección de Datos de la Unión Europea (RGPD).
 
@@ -32,11 +32,12 @@ Hito es una aplicación gratuita desarrollada por **Miguel Huerta** ("el desarro
 Estos datos **no salen de tu dispositivo** salvo que tú los exportes (respaldo, archivo .ics) o conectes una agenda externa. Los datos de salud y financieros que registres son **datos sensibles**: como solo existen en tu dispositivo, tú tienes el control total sobre ellos. Te recomendamos proteger tu equipo o teléfono con contraseña.
 
 ## 4. Google Calendar (opcional)
-Si eliges **Conectar** en *Ajustes → Agendas conectadas*, Hito solicita, con tu autorización expresa en la pantalla de Google, permiso para ver y editar tus calendarios (`https://www.googleapis.com/auth/calendar`) y para conocer tu correo electrónico (`email`), con el único fin de:
+Si eliges **Conectar** en *Ajustes → Agendas conectadas*, Hito solicita, con tu autorización expresa en la pantalla de Google, permiso para ver y editar tus calendarios (`https://www.googleapis.com/auth/calendar`) para conocer tu correo electrónico (`email`) y, solo si activas la sincronización entre dispositivos, para usar la **carpeta privada de Hito en tu Google Drive** (`https://www.googleapis.com/auth/drive.appdata`; Hito no puede ver ningún otro archivo de tu Drive), con el único fin de:
 - mostrar tus eventos de Google dentro de Hito;
 - guardar en tu Google Calendar las actividades que creas o cambias en Hito;
 - crear un calendario llamado "Hito" en tu cuenta;
-- mostrarte qué cuenta está conectada.
+- mostrarte qué cuenta está conectada;
+- guardar el archivo cifrado de sincronización entre tus dispositivos (ver punto 5 bis).
 
 **Cómo se guardan:** los eventos sincronizados se guardan en el archivo local de Hito. El permiso de acceso (token) se guarda **cifrado en tu dispositivo** (en Windows y Android, con la protección del sistema operativo). **Con quién se comparten:** con nadie; solo viajan entre tu dispositivo y Google, cuyo tratamiento se rige por la [Política de privacidad de Google](https://policies.google.com/privacy).
 
@@ -44,6 +45,12 @@ Si eliges **Conectar** en *Ajustes → Agendas conectadas*, Hito solicita, con t
 
 ## 5. Calendarios por enlace (.ics) (opcional)
 Si agregas un enlace, Hito descarga ese calendario directamente desde la dirección que escribiste, solo para mostrarlo. El servicio que lo publica puede registrar la descarga según sus propias políticas.
+
+## 5 bis. Sincronización entre tus dispositivos (opcional)
+Si activas *Ajustes → Tus dispositivos*, Hito guarda una copia de tus datos **cifrada con una clave que solo tú conoces** (AES-256-GCM) en el lugar que elijas: la carpeta privada de Hito en tu Google Drive o una carpeta de tu propio servicio de nube (OneDrive, Dropbox, iCloud Drive…). Ese servicio guarda el archivo, pero **no puede leerlo**; el desarrollador tampoco tiene acceso. La clave nunca sale de tus dispositivos. Puedes desactivarlo en cualquier momento.
+
+## 5 ter. Avisos y notificaciones
+Para avisarte de tus actividades, Hito programa notificaciones **en tu propio dispositivo** (en Android, con alarmas del sistema). No se usa ningún servicio de notificaciones externo. En Android, si tienes activada la copia de seguridad de tu teléfono, el sistema puede incluir los datos de Hito en tu copia personal de Google.
 
 ## 6. Cookies y tecnologías similares
 Hito **no usa cookies de rastreo, de publicidad ni de analítica**, ni las de terceros.
@@ -71,7 +78,7 @@ Cualquier cambio se publicará en esta misma página con su nueva fecha y se men
 
 <h1 id="english">Hito Privacy Notice</h1>
 
-*Effective November 12, 2026 · Version 0.5*
+*Effective November 12, 2026 · Version 0.6*
 
 This notice explains what personal data **Hito** (the app for Windows, Android, macOS and Linux, and this website) uses, why, and what rights you have. It is issued under Mexico's Federal Law on the Protection of Personal Data Held by Private Parties and, where applicable, other privacy laws such as the EU General Data Protection Regulation (GDPR).
 
@@ -96,11 +103,12 @@ Hito is a free app developed by **Miguel Huerta** ("the developer"). Privacy con
 This data **never leaves your device** unless you export it (backup, .ics file) or connect an external calendar. Health and financial data you enter are **sensitive data**: since they exist only on your device, you are in full control of them. We recommend protecting your computer or phone with a password.
 
 ## 4. Google Calendar (optional)
-If you choose **Connect** in *Settings → Connected calendars*, Hito requests, with your express authorization on Google's screen, permission to see and edit your calendars (`https://www.googleapis.com/auth/calendar`) and to know your email address (`email`), solely to:
+If you choose **Connect** in *Settings → Connected calendars*, Hito requests, with your express authorization on Google's screen, permission to see and edit your calendars (`https://www.googleapis.com/auth/calendar`) to know your email address (`email`) and, only if you turn on device sync, to use **Hito's private folder in your Google Drive** (`https://www.googleapis.com/auth/drive.appdata`; Hito can't see any other file in your Drive), solely to:
 - show your Google events inside Hito;
 - save the activities you create or change in Hito to your Google Calendar;
 - create a calendar named "Hito" in your account;
-- show you which account is connected.
+- show you which account is connected;
+- store the encrypted sync file shared by your devices (see section 5a).
 
 **How it's stored:** synced events are saved in Hito's local file. The access permission (token) is stored **encrypted on your device** (on Windows and Android, with the operating system's protection). **Who it's shared with:** no one; it only travels between your device and Google, whose processing is governed by the [Google Privacy Policy](https://policies.google.com/privacy).
 
@@ -108,6 +116,12 @@ If you choose **Connect** in *Settings → Connected calendars*, Hito requests, 
 
 ## 5. Calendars by link (.ics) (optional)
 If you add a link, Hito downloads that calendar directly from the address you entered, only to display it. The service publishing it may log the download under its own policies.
+
+## 5a. Sync between your devices (optional)
+If you turn on *Settings → Your devices*, Hito stores a copy of your data **encrypted with a passphrase only you know** (AES-256-GCM) in the place you choose: Hito's private folder in your Google Drive or a folder in your own cloud service (OneDrive, Dropbox, iCloud Drive…). That service stores the file but **cannot read it**; the developer has no access either. The passphrase never leaves your devices. You can turn it off at any time.
+
+## 5b. Reminders and notifications
+To remind you of your activities, Hito schedules notifications **on your own device** (on Android, with system alarms). No external notification service is used. On Android, if your phone backup is on, the system may include Hito's data in your personal Google backup.
 
 ## 6. Cookies and similar technologies
 Hito **does not use tracking, advertising, or analytics cookies**, nor third-party cookies.
