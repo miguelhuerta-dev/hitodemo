@@ -6,35 +6,38 @@
 
 <p align="center"><strong>Español</strong> · <a href="#english">English</a></p>
 
+> **Nuevo en 0.5 · New in 0.5:** conecta tu **Google Calendar** (en los dos sentidos) y cualquier calendario por enlace .ics · logo nuevo · menú deslizable en el celular.
+> *Connect **Google Calendar** (two-way) and any calendar via .ics link · new logo · swipeable menu on phones.*
+
 ## Descargar · Download
 
 ### Recomendado · Recommended
 
 | Sistema · System | Descarga · Download |
 |---|---|
-| **Windows 10 / 11** — instalador · installer | [Hito-0.4.0-Instalador.exe](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.4.0/Hito-0.4.0-Instalador.exe) |
-| **Android 7+** — app | [Hito-0.4.0-android.apk](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.4.0/Hito-0.4.0-android.apk) |
+| **Windows 10 / 11** — instalador · installer | [Hito-0.5.0-Instalador.exe](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.5.0/Hito-0.5.0-Instalador.exe) |
+| **Android 7+** — app | [Hito-0.5.0-android.apk](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.5.0/Hito-0.5.0-android.apk) |
 
 ### Portable (sin instalar · no install)
 
 | Sistema · System | Descarga · Download |
 |---|---|
-| **Windows 10 / 11** | [Hito-0.4.0-win-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-win-x64.zip) |
-| **Mac M1 / M2 / M3 / M4** | [Hito-0.4.0-osx-arm64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-osx-arm64.zip) |
-| **Mac Intel** | [Hito-0.4.0-osx-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-osx-x64.zip) |
-| **Linux** | [Hito-0.4.0-linux-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.4.0-linux-x64.zip) |
+| **Windows 10 / 11** | [Hito-0.5.0-win-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.5.0-win-x64.zip) |
+| **Mac M1 / M2 / M3 / M4** | [Hito-0.5.0-osx-arm64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.5.0-osx-arm64.zip) |
+| **Mac Intel** | [Hito-0.5.0-osx-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.5.0-osx-x64.zip) |
+| **Linux** | [Hito-0.5.0-linux-x64.zip](https://github.com/miguelhuerta-dev/hitodemo/raw/main/Hito-0.5.0-linux-x64.zip) |
 
 Funciona sin internet y tus datos se quedan en tu equipo.
 
 ## Cómo instalarlo
 
 ### Windows (instalador)
-1. Descarga **Hito-0.4.0-Instalador.exe** y ábrelo.
+1. Descarga **Hito-0.5.0-Instalador.exe** y ábrelo.
 2. Si aparece *"Windows protegió su PC"*: **Más información → Ejecutar de todas formas** (la app no está firmada con un certificado de pago).
 3. Sigue el asistente. No pide permisos de administrador. Al terminar, abre Hito desde el menú Inicio o el escritorio.
 
 ### Android
-1. Desde el celular, descarga **Hito-0.4.0-android.apk**.
+1. Desde el celular, descarga **Hito-0.5.0-android.apk**.
 2. Ábrelo. Android te pedirá permitir **"Instalar apps de origen desconocido"** para tu navegador o administrador de archivos: actívalo y vuelve.
 3. Toca **Instalar**. Si Google Play Protect muestra un aviso, elige **Instalar de todas formas** (Hito no viene de la Play Store).
 4. Las actualizaciones futuras se instalan encima sin perder tus datos.
@@ -65,6 +68,7 @@ chmod +x Hito && ./Hito
 - Verás **datos de ejemplo** para explorar. Bórralos en **Ajustes → Empezar de nuevo**.
 - Tus datos se guardan en la carpeta `datos`, junto al programa. Para llevártelos, copia la carpeta completa o usa **Ajustes → Descargar respaldo**.
 - Atajo útil: **Ctrl + K** (o ⌘ + K) para buscar lo que sea.
+- **¿Usas Google Calendar?** En **Ajustes → Agendas conectadas** toca **Conectar** e inicia sesión una vez: tus eventos aparecen en Hito y lo que hagas en Hito llega a Google. Hito habla directo con Google desde tu equipo ([política de privacidad](https://miguelhuerta-dev.github.io/hitodemo/privacidad/)).
 
 ¿Algo no abre? Manda el archivo `datos/hito.log`; ahí queda escrito qué pasó.
 
@@ -75,12 +79,12 @@ chmod +x Hito && ./Hito
 It works offline, and your data stays on your device. Download the file for your system from the tables above.
 
 ### Windows (installer)
-1. Download **Hito-0.4.0-Instalador.exe** and open it.
+1. Download **Hito-0.5.0-Instalador.exe** and open it.
 2. If you see *"Windows protected your PC"*, click **More info → Run anyway** (the app isn't signed with a paid certificate).
 3. Follow the setup wizard. No administrator rights needed. When it's done, open Hito from the Start menu or your desktop.
 
 ### Android
-1. On your phone, download **Hito-0.4.0-android.apk**.
+1. On your phone, download **Hito-0.5.0-android.apk**.
 2. Open it. Android will ask you to allow **"Install unknown apps"** for your browser or file manager: turn it on and go back.
 3. Tap **Install**. If Google Play Protect shows a warning, choose **Install anyway** (Hito doesn't come from the Play Store).
 4. Future updates install on top without losing your data.
@@ -111,6 +115,7 @@ chmod +x Hito && ./Hito
 - You'll see **sample data** to explore. Clear it in **Settings → Start over**.
 - Your data is saved in the `datos` folder next to the app. To take it with you, copy the whole folder or use **Settings → Download backup**.
 - Handy shortcut: **Ctrl + K** (or ⌘ + K) to search for anything.
+- **Use Google Calendar?** In **Settings → Connected calendars**, tap **Connect** and sign in once: your events show up in Hito and what you do in Hito reaches Google. Hito talks to Google directly from your device ([privacy policy](https://miguelhuerta-dev.github.io/hitodemo/privacidad/)).
 
 Something won't open? Send the `datos/hito.log` file; it records what happened.
 
