@@ -15,8 +15,8 @@
 
 | Sistema · System | Descarga · Download |
 |---|---|
-| **Windows 10 / 11** — instalador · installer | [Hito-0.6.1-Instalador.exe](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.6.1/Hito-0.6.1-Instalador.exe) |
-| **Android 7+** — app | [Hito-0.6.1-android.apk](https://github.com/miguelhuerta-dev/hitodemo/releases/download/v0.6.1/Hito-0.6.1-android.apk) |
+| **Windows 10 / 11** — instalador · installer | [Hito-0.6.1-Instalador.exe](https://github.com/miguelhuerta-dev/hitodemo/releases/download/0.6.1/Hito-0.6.1-Instalador.exe) |
+| **Android 7+** — app | [Hito-0.6.1-android.apk](https://github.com/miguelhuerta-dev/hitodemo/releases/download/0.6.1/Hito-0.6.1-android.apk) |
 
 ### Portable (sin instalar · no install)
 
